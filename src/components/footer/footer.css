@@ -17,8 +17,8 @@
   margin-bottom: var(--mb-2);
 }
 
-.footer__link {
-  color: var(--title-color-dark);
+.footer__link:hover {
+  color: #b7511e;
 }
 
 .footer__list {

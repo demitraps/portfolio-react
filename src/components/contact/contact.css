@@ -55,11 +55,15 @@
     column-gap: 0.25rem;
 }
 
+.contact__button:hover {
+    color: #b7511e;
+}
+
 .contact__button-icon{
     font-size: 1rem;
     transition: 0.3s;
 }
-.contact__button:hover .contact__button-icon{
+.contact__button-icon {
     transform: translate(0.25rem);
 }
 

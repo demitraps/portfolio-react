@@ -24,6 +24,13 @@
     text-align: center;
     padding: 1rem 1.25rem;
 }
+
+ .about__box:hover{
+    background-color: rgba(183, 81, 30, 0.8);
+    transition: 0.3s;
+    color: white;
+  }
+
 .about__icon{
     font-size: 1.5rem;
     color: var(--title-color);
@@ -97,8 +104,4 @@
         grid-template-columns: repeat(2, 1fr);
     }
   }
-  .about__box:hover{
-    background-color: rgb(140, 135, 135);
-    transition: 0.3s;
-    color: white;
-  }
+ 
