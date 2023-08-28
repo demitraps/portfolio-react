@@ -137,7 +137,7 @@ const Qualifications = () => {
                   National Technical University of Athens
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2013
+                  <i className="uil uil-calendar-alt"></i> 2008 - 2013
                 </div>
               </div>
 
