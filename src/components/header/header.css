@@ -38,7 +38,7 @@
 /* Active link */
 .active-link,
 .nav__link:hover{
-    color: var(--title-color-dark);
+    color: #B7511E;
 }
 
 .scroll-header{

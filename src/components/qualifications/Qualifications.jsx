@@ -7,8 +7,8 @@ const Qualifications = () => {
   };
 
   return (
-    <section className="qualification section">
-      <h2 className="section__title">Qualifications</h2>
+    <section className="qualification section" id="experience">
+      <h2 className="section__title">Experience</h2>
       <span className="section__subtitle">My journey</span>
 
       <div className="qualification__container container">
