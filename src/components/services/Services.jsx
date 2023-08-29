@@ -43,10 +43,10 @@ const Services = () => {
 
               <h3 className="services__modal-title">Web Developer</h3>
               <p className="services__modal-description">
-                Service with more than 1.5 years of experience. Providing as
-                well as constantly improving the quality of the product while
-                improving my own skills. If I don't know how to, I'll learn and
-                implement it.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Provident, impedit sequi quidem adipisci incidunt corporis
+                quibusdam eos doloremque enim eaque alias! Sit labore
+                reprehenderit est repellat eligendi expedita illum quaerat.
               </p>
 
               <ul className="services__modal-services grid">
@@ -104,7 +104,7 @@ const Services = () => {
               <h3 className="services__modal-title">Creative Content Writer</h3>
               <p className="services__modal-description">
                 I have published blogs on blogger, you can check it out{" "}
-                <a href="https://everyotaku.blogspot.com/">here</a>.
+              here.
               </p>
 
               <ul className="services__modal-services grid">
@@ -122,7 +122,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Story Writer on Vocal.media
+                    Story Writer
                   </p>
                 </li>
                 <li className="services__modal-service">
@@ -133,15 +133,6 @@ const Services = () => {
             </div>
           </div>
         </div>
-
-
-        
-
-
-
-
-
-
       </div>
     </section>
   );

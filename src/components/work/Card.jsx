@@ -1,4 +1,3 @@
-
 const Card = ({ item }) => {
   return (
     <div>
@@ -6,7 +5,7 @@ const Card = ({ item }) => {
 
       {/* Coding card links */}
       {item.category === "coding" && (
-        <div>
+        <div className="card-links">
           <a
             className="work__button"
             href={item.link}
@@ -30,7 +29,7 @@ const Card = ({ item }) => {
 
       {/* Origami card links */}
       {item.category === "origami" && (
-        <div>
+        <div className="card-links">
           <a
             className="work__button"
             href={item.link}
@@ -52,34 +51,28 @@ const Card = ({ item }) => {
         </div>
       )}
 
-      <p className="services__modal-description">
-        Service with more than 1.5 years of experience. Providing as well as
-        constantly improving the quality of the product while improving my own
-        skills. If I don't know how to, I'll learn and implement it.
+      <div className="subtitle">
+        <p>{item.subtitle}</p>
+      </div>
+
+      <p className="services__modal-description">{item.description}</p>
+      <p className="scroll-prompt">
+        Scroll down for more{" "}
+        <i className="bx bx-down-arrow-alt work__button-icon"></i>
       </p>
 
-      <ul className="services__modal-services grid">
-        <li className="services__modal-service">
-          <i className="uil uil-check-circle services__modal-icon"></i>
-          <p className="services__modal-info">I develop the UI.</p>
-        </li>
+      <div className="image-container">
+        {item.images &&
+          item.images.map((image) => {
+            return (
+              <img src={image} alt={image} className="card__img" key={image} />
+            );
+          })}
 
-        <li className="services__modal-service">
-          <i className="uil uil-check-circle services__modal-icon"></i>
-          <p className="services__modal-info">Web page development</p>
-        </li>
-
-        <li className="services__modal-service">
-          <i className="uil uil-check-circle services__modal-icon"></i>
-          <p className="services__modal-info">I make figma wireframes</p>
-        </li>
-      </ul>
-
-      <img src={item.image} alt="" className="work__img" />
-      <br />
-      <img src={item.image} alt="" className="work__img" />
-
-      <img src={item.image} alt="" className="work__img" />
+        <img src={item.image} alt="" className="card__img" />
+        <img src={item.image} alt="" className="card__img" />
+        <img src={item.image} alt="" className="card__img" />
+      </div>
     </div>
   );
 };
