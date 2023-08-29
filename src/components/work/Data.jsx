@@ -4,21 +4,6 @@ import Threads3 from "../../assets/threads/search.png";
 import Threads4 from "../../assets/threads/profile.png";
 import Threads5 from "../../assets/threads/communities.png";
 
-import Anemona1 from "../../assets/anemona/home-anemona.png";
-import Anemona2 from "../../assets/anemona/card-anemona.png";
-import Anemona3 from "../../assets/anemona/sticker-anemona.png";
-import Anemona4 from "../../assets/anemona/logo-anemona.png";
-import Anemona5 from "../../assets/anemona/logo-analysis-anemona.png";
-import Anemona6 from "../../assets/anemona/elements-anemona.png";
-import Anemona7 from "../../assets/anemona/var-anemona.png";
-import Anemona8 from "../../assets/anemona/color.png";
-
-import Box1 from "../../assets/boxes/spanish-boxes.png";
-import Box2 from "../../assets/boxes/rainbow-boxes.png";
-import Box3 from "../../assets/boxes/video-boxes.gif";
-import Box4 from "../../assets/boxes/red-boxes.png";
-import Box5 from "../../assets/boxes/blue-boxes.png";
-
 import Eshop1 from "../../assets/ecommerce/homepage.png";
 import Eshop2 from "../../assets/ecommerce/demo.gif";
 import Eshop3 from "../../assets/ecommerce/productpreview.png";
@@ -34,6 +19,41 @@ import Admin6 from "../../assets/adminstore/categories.png";
 import Admin7 from "../../assets/adminstore/colors.png";
 import Admin8 from "../../assets/adminstore/orders.png";
 import Admin9 from "../../assets/adminstore/createstore.png";
+
+import EmployeesUI1 from "../../assets/employees/twoscreens.png";
+import EmployeesUI2 from "../../assets/employees/threescreens.png";
+
+import Anemona1 from "../../assets/anemona/home-anemona.png";
+import Anemona2 from "../../assets/anemona/card-anemona.png";
+import Anemona3 from "../../assets/anemona/sticker-anemona.png";
+import Anemona4 from "../../assets/anemona/logo-anemona.png";
+import Anemona5 from "../../assets/anemona/logo-analysis-anemona.png";
+import Anemona6 from "../../assets/anemona/elements-anemona.png";
+import Anemona7 from "../../assets/anemona/var-anemona.png";
+import Anemona8 from "../../assets/anemona/color.png";
+
+import Chunaka1 from "../../assets/chunaka/closeup.png";
+import Chunaka2 from "../../assets/chunaka/topdown.png";
+import Chunaka3 from "../../assets/chunaka/front.png";
+import Chunaka4 from "../../assets/chunaka/back.png";
+import Chunaka5 from "../../assets/chunaka/socialdark.png";
+import Chunaka6 from "../../assets/chunaka/sociallight.png";
+
+import Hopacho1 from "../../assets/hopacho/packaging.png";
+import Hopacho2 from "../../assets/hopacho/thankyou.png";
+import Hopacho3 from "../../assets/hopacho/logo.png";
+import Hopacho4 from "../../assets/hopacho/blackfull.png";
+import Hopacho5 from "../../assets/hopacho/mono.png";
+import Hopacho6 from "../../assets/hopacho/colors.png";
+
+
+import Box1 from "../../assets/boxes/spanish-boxes.png";
+import Box2 from "../../assets/boxes/rainbow-boxes.png";
+import Box3 from "../../assets/boxes/video-boxes.gif";
+import Box4 from "../../assets/boxes/red-boxes.png";
+import Box5 from "../../assets/boxes/blue-boxes.png";
+
+
 
 export const projectsData = [
   {
@@ -80,7 +100,15 @@ export const projectsData = [
     ],
   },
   {
-    title: "Visual Identity for Anemona",
+    title: "UI/UX Employees App (in progress)",
+    subtitle: "Paper wireframes",
+    category: "design",
+    description:
+      "(work in progress) Paper wireframes for an Employees rewards app. Project under the Web Development course of Coding factory.",
+    images: [EmployeesUI1, EmployeesUI2],
+  },
+  {
+    title: "Visual Identity | Anemona",
     subtitle: "Logo | Variations | Branding | Colors | Card mockups",
     category: "design",
     description:
@@ -95,6 +123,22 @@ export const projectsData = [
       Anemona7,
       Anemona8,
     ],
+  },
+  {
+    title: "Business card | Chunaka",
+    subtitle: "Business card | Logo | Variations | Card mockups | Social icons",
+    category: "design",
+    description:
+      "With a deft touch of minimalism, I artfully designed a soothing oasis of visual identity for a massage therapist, seamlessly weaving together a welcoming ambiance through the logo, branding, and business cards. Each element resonates tranquility, inviting clients to unwind as they step into a world of serene relaxation.",
+    images: [Chunaka1, Chunaka2, Chunaka3, Chunaka4, Chunaka5, Chunaka6],
+  },
+  {
+    title: "Branding | Hopacho",
+    subtitle: "Logo | Variations | Colors | Packaging | Social icons",
+    category: "design",
+    description:
+      "I intricately folded a symphony of minimalism and geometry into the DNA of my origami studio's identity, harmonizing the logo, branding, packaging, and stationery with a sense of precise elegance. Each crease and contour reflects not just artistry, but a profound dedication to shaping an enchanting visual narrative.",
+    images: [Hopacho1, Hopacho2, Hopacho3, Hopacho4, Hopacho5, Hopacho6],
   },
   {
     title: "Origami boxes | Swirl",
