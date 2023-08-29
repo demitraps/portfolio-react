@@ -38,6 +38,7 @@ const Contact = () => {
                 href="mailto:psychogyioudimitra@gmail.com"
                 className="contact__button"
                 target="_blank"
+                rel="noreferrer"
               >
                 Contact me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -54,6 +55,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/dimitra-psychogyiou/"
                 className="contact__button"
                 target="_blank"
+                rel="noreferrer"
               >
                 Connect{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -70,6 +72,7 @@ const Contact = () => {
                 href="https://instagram.com/hopacho"
                 className="contact__button"
                 target="_blank"
+                rel="noreferrer"
               >
                 Send a DM{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>

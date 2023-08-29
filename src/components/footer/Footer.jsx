@@ -30,6 +30,7 @@ const Footer = () => {
             href="https://github.com/demitraps"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="uil uil-github-alt"></i>
           </a>
@@ -37,6 +38,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/dimitra-psychogyiou/"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="bx bxl-linkedin-square"></i>
           </a>
@@ -44,6 +46,7 @@ const Footer = () => {
             href="http://hopacho.com/"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="bx bxl-etsy"></i>
           </a>
