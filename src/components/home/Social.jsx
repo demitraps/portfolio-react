@@ -7,6 +7,7 @@ const Social = () => {
         href="https://www.linkedin.com/in/dimitra-psychogyiou/"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="bx bxl-linkedin"></i>
       </a>
@@ -15,6 +16,7 @@ const Social = () => {
         href="https://github.com/demitraps"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="uil uil-github-alt"></i>
       </a>
@@ -23,6 +25,7 @@ const Social = () => {
         href="https://www.instagram.com/hopacho/"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="uil uil-instagram"></i>
       </a>
