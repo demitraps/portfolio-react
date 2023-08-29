@@ -48,10 +48,9 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Software Engineer</h3>
       <p className="home__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iure
-        consequuntur consectetur hic vitae. Ut dolor, in quia labore libero
-        nihil cupiditate numquam dolorum explicabo incidunt sit quos, iste
-        deserunt.
+        A results-driven, enthusiastic and creative Software Engineer with a
+        background in Architecture and Design, passionate about leveraging
+        acquired knowledge and transferable skills to excel at any position.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

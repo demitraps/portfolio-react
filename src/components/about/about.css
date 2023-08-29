@@ -58,6 +58,7 @@
 .about__description{
     padding: 0 1rem 0 1rem;
     margin-bottom: var(--mb-2-5);
+    font-size: 0.9rem;
 }
 
  /* For large devices */
