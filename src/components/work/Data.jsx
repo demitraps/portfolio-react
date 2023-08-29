@@ -14,14 +14,29 @@ import Anemona7 from "../../assets/anemona/var-anemona.png";
 import Anemona8 from "../../assets/anemona/color.png";
 
 import Box1 from "../../assets/boxes/spanish-boxes.png";
-import Box2 from "../../assets/boxes/rainbow-boxes.jpeg";
+import Box2 from "../../assets/boxes/rainbow-boxes.png";
 import Box3 from "../../assets/boxes/video-boxes.gif";
-import Box4 from "../../assets/boxes/red-boxes.jpeg";
-import Box5 from "../../assets/boxes/blue-boxes.jpeg";
+import Box4 from "../../assets/boxes/red-boxes.png";
+import Box5 from "../../assets/boxes/blue-boxes.png";
+
+import Eshop1 from "../../assets/ecommerce/homepage.png";
+import Eshop2 from "../../assets/ecommerce/demo.gif";
+import Eshop3 from "../../assets/ecommerce/productpreview.png";
+import Eshop4 from "../../assets/ecommerce/filter.png";
+import Eshop5 from "../../assets/ecommerce/shoppingcart.png";
+
+import Admin1 from "../../assets/adminstore/lightmode.png";
+import Admin2 from "../../assets/adminstore/demo.gif";
+import Admin3 from "../../assets/adminstore/createproduct.png";
+import Admin4 from "../../assets/adminstore/products.png";
+import Admin5 from "../../assets/adminstore/billboard.png";
+import Admin6 from "../../assets/adminstore/categories.png";
+import Admin7 from "../../assets/adminstore/colors.png";
+import Admin8 from "../../assets/adminstore/orders.png";
+import Admin9 from "../../assets/adminstore/createstore.png";
 
 export const projectsData = [
   {
-    id: 1,
     title: "Full-stack Threads app",
     link: "https://threads-app-umber.vercel.app/",
     repo: "https://github.com/demitraps/threads-app-next13",
@@ -33,7 +48,38 @@ export const projectsData = [
     images: [Threads1, Threads2, Threads3, Threads4, Threads5],
   },
   {
-    id: 2,
+    title: "Full Stack Next.js 13 E-Commerce Store",
+    link: "https://ecommerce-store-next13.vercel.app/",
+    repo: "https://github.com/demitraps/ecommerce-store-next13",
+    subtitle: "Next.js 13 App Router | React | TailwindCSS | Shadcn",
+    category: "coding",
+    description:
+      "This project is a fully functioning E-commerce Store with Stripe webhooks. It includes features such as featured products in homepage, different categories, preview product card, product page with color and size filters, related items.",
+    images: [Eshop1, Eshop2, Eshop3, Eshop4, Eshop5],
+  },
+
+  {
+    title: "Admin Dashboard & CMS",
+    link: "https://ecommerce-admin-dashboard-next13-seven.vercel.app/",
+    repo: "https://github.com/demitraps/ecommerce-admin-dashboard-next13",
+    subtitle:
+      "Next.js 13 App Router | React | TailwindCSS | MySQL with Prisma ORM",
+    category: "coding",
+    description:
+      "This project is a Full Stack Next.js 13 Admin Dashboard & CMS for E-Commerce Store with Clerk authentication, Data validation with Zod and Cloudinary file uploads. It includes features such as multiple stores, billboards per category, sizes/colors/products, archive/feature product function, orders page with payment status, API calls for billboards, categories, sizes, colors, products, light/dark mode.",
+    images: [
+      Admin1,
+      Admin2,
+      Admin3,
+      Admin4,
+      Admin5,
+      Admin6,
+      Admin7,
+      Admin8,
+      Admin9,
+    ],
+  },
+  {
     title: "Visual Identity for Anemona",
     subtitle: "Logo | Variations | Branding | Colors | Card mockups",
     category: "design",
