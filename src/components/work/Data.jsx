@@ -7,7 +7,9 @@ export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Web design",
+    title: "Full-stack Threads app",
+    link: "https://threads-app-umber.vercel.app/",
+    repo: "https://github.com/demitraps/threads-app-next13",
     category: "coding",
   },
   {
@@ -20,6 +22,7 @@ export const projectsData = [
     id: 3,
     image: Work3,
     title: "Brand design",
+    link: "https://www.etsy.com/listing/758604048/pack-of-3-origami-wedding-favor-boxes",
     category: "origami",
   },
   {
